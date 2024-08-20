@@ -1,9 +1,9 @@
 package com.veganplanet.common.core.exception;
 
-import cn.hutool.json.JSONUtil;
 import com.veganplanet.common.core.response.Res;
 import com.veganplanet.common.core.response.ServiceStatus;
 import lombok.extern.slf4j.Slf4j;
+import org.dromara.hutool.json.JSONUtil;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
